@@ -1,4 +1,4 @@
-var index = require("../index.js")
+var index = ("../index.js")
 var Name = 'Susan';
 describe('what-is-a-test', () => {
   describe('Susan', () => {
