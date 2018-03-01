@@ -1,4 +1,4 @@
-#$var index = require("../index.js")
+var index = require("../index.js")
 var Name = 'Susan';
 describe('what-is-a-test', () => {
   describe('Susan', () => {
@@ -8,7 +8,6 @@ describe('what-is-a-test', () => {
     })
   })
 
-var Height = '74'
   describe('Height', () => {
     it('is less than 40', () => {
       expect(index.Height).toBeLessThan(40)
