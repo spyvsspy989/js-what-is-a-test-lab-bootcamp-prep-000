@@ -1,7 +1,6 @@
 var index = ("../index.js")
 var Name = 'Susan';
-describe('what-is-a-test', () => {
-  describe('Susan', () => {
+  ('what-is-a-test', () => {('Susan', () => {
     it('returns "Susan"', () => {
       expect(index.name).toEqual('Joe')
       "Susan" === "Joe"
